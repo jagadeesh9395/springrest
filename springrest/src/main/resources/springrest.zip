@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "180803f2-6342-4c0c-8d98-616337ef933d",
+		"name": "SpringRestEmployee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33085895"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/employees/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"firstName\": \"Jagadeesh\",\r\n  \"lastName\": \"Karanam\",\r\n  \"email\": \"jag@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"department\": \"Java\",\r\n  \"designation\": \"SSE\",\r\n  \"address\": \"HILL ROAD\",\r\n  \"city\": \"HYDERABAD\",\r\n  \"state\": \"TELANGANA\",\r\n  \"zip\": \"500048\",\r\n  \"country\": \"INDIA\",\r\n  \"dateOfBirth\": \"26-JAN-1990\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"firstName\": \"Jagadeesh\",\r\n  \"lastName\": \"Karanam\",\r\n  \"email\": \"jag@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"department\": \"Java\",\r\n  \"designation\": \"SSE\",\r\n  \"address\": \"HILL ROAD\",\r\n  \"city\": \"HYDERABAD\",\r\n  \"state\": \"TELANGANA\",\r\n  \"zip\": \"500048\",\r\n  \"country\": \"INDIA\",\r\n  \"dateOfBirth\": \"26-JAN-1990\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/employees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"firstName\": \"Jagadeesh\",\r\n  \"lastName\": \"Karanam\",\r\n  \"email\": \"jag@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"department\": \"Java\",\r\n  \"designation\": \"SSE\",\r\n  \"address\": \"HILL ROAD\",\r\n  \"city\": \"HYDERABAD\",\r\n  \"state\": \"TELANGANA\",\r\n  \"zip\": \"500048\",\r\n  \"country\": \"INDIA\",\r\n  \"dateOfBirth\": \"26-JAN-1990\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/employees/search/findByFirstName?firstName=Jagadeesh",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"firstName\": \"Jagadeesh\",\r\n  \"lastName\": \"Karanam\",\r\n  \"email\": \"jag@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"department\": \"Java\",\r\n  \"designation\": \"SSE\",\r\n  \"address\": \"HILL ROAD\",\r\n  \"city\": \"HYDERABAD\",\r\n  \"state\": \"TELANGANA\",\r\n  \"zip\": \"500048\",\r\n  \"country\": \"INDIA\",\r\n  \"dateOfBirth\": \"26-JAN-1990\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/employees/search/findByFirstName?firstName=Jagadeesh",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employees",
+						"search",
+						"findByFirstName"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Jagadeesh"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
